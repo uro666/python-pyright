@@ -26,7 +26,6 @@ BuildRequires:	python%{pyver}dist(pytest-subprocess)
 BuildRequires:	python%{pyver}dist(ruff)
 BuildRequires:	python%{pyver}dist(twine)
 %endif
-Requires:	nodejs
 Requires:	python%{pyver}dist(nodeenv) >= 1.6.0
 Requires:	python%{pyver}dist(typing-extensions) >= 4.1
 
