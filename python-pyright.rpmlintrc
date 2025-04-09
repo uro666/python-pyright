@@ -1,0 +1,7 @@
+# Silence zero-length __init__.pyi lint errors caused because of stubs
+addFilter("E: zero-length")
+# Silence no man page warnings
+addFilter("W: no-manual-page-for-binary")
+# Silence files-duplicate warnings
+addFilter("W: files-duplicate")
+addFilter("E: files-duplicated-waste")
