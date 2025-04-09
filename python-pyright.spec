@@ -1,5 +1,6 @@
 %define module pyright
-%bcond_without test
+# disable tests on abf
+%bcond_with test
 
 Name:		python-pyright
 Version:	1.1.398
